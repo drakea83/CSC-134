@@ -7,18 +7,25 @@
 using namespace std;
 
 int main() {
-    string name = "Drake";
-    int num_apples = 10;
-    double price_each = 0.25;
+    string name;
+    int num_chips;
+    double price_each;
     
-    cout << "Welcome to the " << name << " Apple Farm!" << endl;
-	cout << "We have " << num_apples << " apples in stock." << endl;
-    cout << "Each apple costs " << price_each << endl;
- 
- double total_price = num_apples * price_each;
+    cout << "Please enter your name." << endl;
+    cin >> name;
+    cout << "How many chips are for sale?" << endl;
+    cin >> num_chips;
+    cout << "How much is each chip?" << endl;
+    cin >> price_each;
+   
+   cout << "Welcome to the " << name << "'s Chip Store!" << endl;
+   cout << "We have " num_chips << " in stock." << endl;
+   cout << "The price per chip is $" << price_each << endl;
+
+ double total_price = num_chips * price_each;
  	cout << "" << endl;
- 	cout << "The total price for all " << num_apples;
-    cout << " is: $" << total_price << "0" << endl;
+ 	cout << "The total price for all " << num_chips;
+    cout << " is: $" << total_price << endl;
     cout << "Thanks for coming by!" << endl;
     return 0;
 }
