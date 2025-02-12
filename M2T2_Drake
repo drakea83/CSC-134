@@ -19,7 +19,7 @@ int main() {
     cin >> price_each;
    
    cout << "Welcome to the " << name << "'s Chip Store!" << endl;
-   cout << "We have " num_chips << " in stock." << endl;
+   cout << "We have " << num_chips << " in stock." << endl;
    cout << "The price per chip is $" << price_each << endl;
 
  double total_price = num_chips * price_each;
