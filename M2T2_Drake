@@ -27,5 +27,6 @@ int main() {
  	cout << "The total price for all " << num_chips;
     cout << " is: $" << total_price << endl;
     cout << "Thanks for coming by!" << endl;
+
     return 0;
 }
