@@ -18,8 +18,6 @@ int main() {
     double charge;
     double profit;
 
-   // cout << setprecision(2) << fixed << showpoint;
-
     cout << "Enter the dimensions of the crate (in feet):/n";
     cout << "Length: ";
     cin >> length;
