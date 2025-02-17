@@ -3,9 +3,9 @@
 // CSC-134
 // 16 February 2025
 
-// I used ChatGPT to write a simply C++ Program to calculate the dimensions of a tractor-trailer.
+// I used ChatGPT to write a simple C++ Program to calculate the dimensions of a tractor-trailer.
 
-#include <iostream>
+# include <iostream>
 using namespace std;
 
 int main() {
