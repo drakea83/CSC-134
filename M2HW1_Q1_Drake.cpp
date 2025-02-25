@@ -28,6 +28,5 @@ int main() {
     double current_account_balance = account_balance + deposit - withdrawal;
     cout << "The current account balance is: $" << current_account_balance << endl;
 
-
     return 0;
 }
