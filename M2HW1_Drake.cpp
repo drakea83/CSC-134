@@ -1,5 +1,6 @@
 // CSC-134
-// M2HW1- Gold
+// M2HW1 - Gold
+// Question 1
 // Aaron Drake 
 // 25 Feb 2025
 
