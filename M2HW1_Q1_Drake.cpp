@@ -5,6 +5,7 @@
 // 25 Feb 2025
 
 # include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main() {
@@ -26,6 +27,7 @@ int main() {
     cout << "Account name: " << name << "'s checking account" << endl;
     cout << "Account number: " << account_number << endl;
     double current_account_balance = account_balance + deposit - withdrawal;
+    cout << fixed << setprecision(2);
     cout << "The current account balance is: $" << current_account_balance << endl;
 
     return 0;

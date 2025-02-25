@@ -5,6 +5,7 @@
 // 25 Feb 2025
 
 # include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main() {
@@ -31,6 +32,7 @@ int main() {
     cost = volume * cost_per_cubic_foot;
     charge = volume * charge_per_cubic_foot;
     profit = cost - charge;
+    cout << fixed << setprecision(2);
 
     cout << "The volume of the crate is ";
     cout << volume << " cubic feet./n";
