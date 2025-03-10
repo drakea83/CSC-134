@@ -132,7 +132,7 @@ cout << "Question 3" << endl;
 
     if (1 == choice_3) {
         cout << "You reach out to a couple of your classmates and begrudgingly, they agree to help you." << endl;
-        cout << "They walk you figure through the difficult section." << endl;
+        cout << "They walk you through the difficult section." << endl;
         cout << "While your homework is completed, your classmates are upset with you." << endl;
         cout << "GAME OVER! Not the best choices but you were able to complete the assignment." << endl;
     }
@@ -160,12 +160,12 @@ cout << "Question 4" << endl;
     srand(seed); // srand doesn't seem to be populating with the <cmath> in Code::Spaces
     const int MAX = 9;
     int answer;
-    int corrent_answer;
+    int correct_answer;
     int roll = rand() % MAX; // rand doesn't seem to be populating either
     int roll_1 = rand() % MAX;
     int roll_2 = rand() % MAX;
 
-    cout << "What is " roll "+" roll_1 "= ? << endl;
+    cout << "What is " << roll << "+" << roll_1 << "= ?" << endl;
     cin >> answer;
     correct_answer = roll + roll_1;
     if (answer == correct_answer){
