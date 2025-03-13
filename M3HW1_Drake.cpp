@@ -165,15 +165,16 @@ cout << "Question 4" << endl;
     int roll_1 = rand() % MAX;
     int roll_2 = rand() % MAX;
 
-    cout << "What is " << roll << "+" << roll_1 << "= ?" << endl;
+    cout << "What is " << roll_1 << "+" << roll_2 << "= ?" << endl;
     cin >> answer;
-    correct_answer = roll + roll_1;
+    correct_answer = roll_1 + roll_2;
     if (answer == correct_answer){
         cout << "Correct" << endl;
     }
-    else (answer != correct_answer){
+    if (answer != correct_answer);{
         cout << "Incorrect" << endl;
     }
+    
 
     return 0;
 }
