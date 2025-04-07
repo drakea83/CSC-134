@@ -11,9 +11,9 @@ int main()
 {
     int firstNum, secondNum;
 
-    cout << "What is the number you want the multiplication table for?" << endl;
+    cout << "Enter a number between 1 to 12? This will be the number being multiplied." << endl;
     cin >> firstNum;
-    cout << "What is the size of the multiplication table?" << endl;
+    cout << "Enter a second number between 1 to 12? This will be the size of your multiplication table." << endl;
     cin >> secondNum;
     cout << " " << endl;
 
