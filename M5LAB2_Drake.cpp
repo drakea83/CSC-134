@@ -4,23 +4,33 @@
 // 13 Apr 2025
 
 #include <iostream>
-
 using namespace std;
 
-void main_menu();
-void choice_front_door();
-void choice_back_door();
-void choice_go_home();
+// Declare (Write the prototypes for)
+// the getLength,
+// getWidth, getArea, and displayData
+// functions here.
 
-int main(){
-    cout << "M5LAB1: Choose Your Own Adventure" << endl;
-    main_menu();
-    cout << "Thanks for playing. I hope you enjoyed the game." << endl;
-    return 0;
+int main()
+{
+	// This program calculates the area of a rectangle.
+	// TODO: fix any syntax errors
+
+   double length,    // The rectangle's length
+          width,     // The rectangle's width
+          area;      // The rectangle's area
+
+   // Get the rectangle's length.
+   length = getLength();
+
+   // Get the rectangle's width.
+   width = getWidth()
+
+   // Get the rectangle's area.
+   are = getArea();
+
+   // Display the rectangle's data.
+   displayData(length, width, area);
+
+   return 0;
 }
-
-void main_menu(){
-    cout << "Main Menu" << endl;
-    cout << ""
-}
-
