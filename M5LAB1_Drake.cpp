@@ -4,12 +4,10 @@
 // 13 Apr 2025
 
 #include <iostream>
-
 using namespace std;
 
 void main_menu();
 void choice_global_thermonuclear_war();
-void choice_tic_tac_toe();
 void choice_USA();
 void choice_USSR();
 void choice_target_group_USSR();
@@ -20,8 +18,7 @@ void choice_target_group_USSR_results();
 void choice_target_group_USA_results();
 void choice_target_group_Eastern_Europe_results();
 void choice_target_group_Western_Europe_results();
-void choice_abort
-
+void choice_abort();
 
 int main(){
     cout << "M5LAB1: Choose Your Own Adventure: WARGAMES" << endl;
@@ -84,6 +81,7 @@ void choice_USA(){
     cin.ignore();
     choice_USA();
 }
+}
 
 void choice_USSR(){
     cout << "Select Target Group" << endl;
@@ -100,6 +98,7 @@ void choice_USSR(){
     cout << "That's not a valid choice, please try again." << endl;
     cin.ignore();
     choice_USSR();
+}
 }
 
 void choice_target_group_USSR(){
@@ -118,6 +117,7 @@ void choice_target_group_USSR(){
     cin.ignore();
     choice_target_group_USSR();
 }
+}
 
 void choice_target_group_USA(){
     cout << "Final Attack Concurrence" << endl;
@@ -134,6 +134,7 @@ void choice_target_group_USA(){
     cout << "That's not a valid choice, please try again." << endl;
     cin.ignore();
     choice_target_group_USA();
+}
 }
 
 void choice_target_group_Eastern_Europe(){
@@ -152,6 +153,7 @@ void choice_target_group_Eastern_Europe(){
     cin.ignore();
     choice_target_group_Eastern_Europe();
 }
+}
 
 void choice_target_group_Western_Europe(){
     cout << "Final Attack Concurrence" << endl;
@@ -168,6 +170,7 @@ void choice_target_group_Western_Europe(){
     cout << "That's not a valid choice, please try again." << endl;
     cin.ignore();
     choice_target_group_Western_Europe();
+}
 }
 
 void choice_target_group_USSR_results(){
