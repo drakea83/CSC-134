@@ -23,13 +23,15 @@ void choice_abort();
 int main(){
     cout << "M5LAB1: Choose Your Own Adventure: WARGAMES" << endl;
     main_menu();
+    cout << "" << endl;
+    cout << "" << endl;
     cout << "Thanks for playing. I hope you enjoyed the game." << endl;
     return 0;
 }
 
 void main_menu(){
     cout << "Main Menu" << endl;
-    cout << "Do you want to play a game? How about Global Thermonuclear War?" << endl;
+    cout << "Would you like to play a game?" << endl;
     cout << "What would you like to play: " << endl;
     cout << "1. Let's play Global Thermonuclear War." << endl;
     cout << "2. [Quit]" << endl;
@@ -63,6 +65,7 @@ void choice_global_thermonuclear_war() {
     cout << "That's not a valid choice, please try again." << endl;
     cin.ignore();
     choice_global_thermonuclear_war();
+}
 }
 
 void choice_USA(){
@@ -221,7 +224,7 @@ void choice_target_group_Western_Europe_results(){
     cout << "How about a nice game of chess?" << endl;
 }
 
-void choice_about(){
+void choice_abort(){
     cout << "You aborted the attack." << endl;
     cout << "That was the best choice. Global Thermonuclear War has no winners." << endl;
     cout << "" << endl;
